@@ -1,0 +1,17 @@
+{
+  "payload": {
+    "invoice.csv": "a52ebf9d9c6622be87eb7805f7a0d5a02bee0935520c9a9671234a1ac1a6302d",
+    "notes.txt": "a3f630a3b88d482bb833f98a53398eeed5c1dd51ba10bd8eb556c40da5c2e942",
+    "photo.bin": "56e1086c319837fc21fae57152a8333e669d31341b8e750aa25471ef1db14216"
+  },
+  "quarantine": [
+    {
+      "path": "data/broken.bin",
+      "reason": "checksum_mismatch"
+    },
+    {
+      "path": "data/../pwned.txt",
+      "reason": "path_escape"
+    }
+  ]
+}

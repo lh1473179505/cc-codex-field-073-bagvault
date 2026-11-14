@@ -1,0 +1,1 @@
+https://partner.example/files/photo.bin 9 data/photo.bin
